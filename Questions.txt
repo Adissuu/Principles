@@ -1,4 +1,4 @@
 Question 1: Despite the fact that all shapes are either Rectangle or Circle, you cannot pass
 an a Shape[] array as Printable[] to the print method. Why?
 
-Answer: Because the Printable print method only takes ArrayLists as inputs, not arrays of objects.
+Answer: Because the Printable print method only takes ArrayLists as inputs, not arrays.

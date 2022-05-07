@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class Program {
+public class Driver {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Scanner reader = null;
@@ -48,8 +48,8 @@ public class Program {
                 return 0;
             }
         });
-        for (Shape one : shapes) {
-            Printable printable = (Printable) one;
+        for (Shape oneShape : shapes) {
+            Printable printable = (Printable) oneShape;
             printable.print();
         }
     }
