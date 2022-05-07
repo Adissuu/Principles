@@ -3,7 +3,7 @@
 #include "AGGREGATE.h"
 #define WINPAUSE system("pause")
 
-void pointers(float *five_numbers, float *ten_numbers)
+void q4(float *five_numbers, float *ten_numbers)
 {
     float (*aggregates[5])(float *, int size) = {&minf, &maxf, &sumf, &avgf, &pseudo_avgf};
     float result;
