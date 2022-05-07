@@ -1,3 +1,5 @@
+package Java;
+
 public class Rectangle extends PrintableObject implements Shape {
 
     double length;

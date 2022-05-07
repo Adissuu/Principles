@@ -1,3 +1,5 @@
+package Java;
+
 public interface Shape extends NamedObject {
 
     public double getPerimeter();

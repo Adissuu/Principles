@@ -1,3 +1,5 @@
+package Java;
+
 public abstract class PrintableObject implements NamedObject, Printable {
 
     @Override

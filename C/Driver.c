@@ -1,10 +1,10 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include"AGGREGATE.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "AGGREGATE.h"
 
-void pointers(float* five_numbers, float* ten_numbers)
+void pointers(float *five_numbers, float *ten_numbers)
 {
-    float (*aggregates[5]) (float*, int size) = { &minf, &maxf, &sumf, &avgf, &pseudo_avgf };
+    float (*aggregates[5])(float *, int size) = {&minf, &maxf, &sumf, &avgf, &pseudo_avgf};
     float result;
 
     int i = 0;
@@ -17,4 +17,3 @@ void pointers(float* five_numbers, float* ten_numbers)
         printf("Result of the current function on the array of ten numbers: %.2f.\n\n", result);
     }
 }
-
