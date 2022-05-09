@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "AGGREGATE.h"
-#define WINPAUSE system("pause")
+#include "AGGREGATE.c"
+
 
 void q4(float *five_numbers, float *ten_numbers)
 {
@@ -12,18 +13,19 @@ void q4(float *five_numbers, float *ten_numbers)
     for (i = 0; i < 5; i++)
     {
         result = aggregates[i](five_numbers, 5);
-        printf("Result of the function #%d on the array of five numbers: %.2f.\n\n", i, result);
+        printf("Result of the function #%d on the array of five numbers: %.2f.\n\n", i + 1, result);
 
         result = aggregates[i](ten_numbers, 10);
-        printf("Result of the function #%i on the array of ten numbers: %.2f.\n\n", i, result);
+        printf("Result of the function #%i on the array of ten numbers: %.2f.\n\n", i + 1, result);
     }
 }
 
-void main()
+int main()
 {
     float five_numbers[5] = {6, 7, 5, 4, 3};
     float ten_numbers[10] = {10, 20, 41, 21, 56, 234, 67, 87, 99, 76};
 
-    pointers(five_numbers, ten_numbers);
-    WINPAUSE;
+    q4(five_numbers, ten_numbers);
+    
+    return 1;
 }

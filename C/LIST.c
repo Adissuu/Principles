@@ -2,30 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Definitions of the list
-typedef enum
-{
-	ATOM,
-	LIST
-} eltype;		   // eltype is ATOM or LIST
-typedef char atom; // char
-struct _listnode;
-typedef struct
-{
-	eltype type; // eltype is ATOM or LIST
-	union
-	{
-		atom a;
-		struct _listnode *l;
-	};
-} element;
-typedef struct _listnode
-{
-	element el;
-	struct _listnode *next;
-} * list;
-
-const element NIL = {.type = LIST, .l = NULL};
 //---------------------------------------------
 // Functions
 
@@ -39,21 +15,18 @@ element aasel(atom a)
 // Takes list and returns element who is set to list
 element lasel(list l)
 {
-	element r = {.type = LIST, .l = &l};
+	element r = {.type = LIST, .l = l};
 	return r;
 }
 
 // returns head of a list
 element car(element e)
 {
-	if (e.l == LIST)
-	{
-		return e.l->el;
-	}
-	else
+	if (e.type != LIST)
 	{
 		return NIL;
 	}
+		return e.l->el;
 }
 // Returns tail of the list
 list cdr(element e)

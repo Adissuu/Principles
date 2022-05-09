@@ -3,23 +3,23 @@
 #include <stdio.h>
 
 typedef enum { ATOM, LIST } eltype;
+typedef char atom;           
+struct _listnode;  
 
-typedef char atom;
-
-struct _listnode;
-
-typedef struct {
-	eltype type;
-	union {
-		atom a;
-		struct _listnode* l;
-	};
+typedef struct {  
+    eltype type;      
+    union {
+        atom a;           
+        struct _listnode* l;  
+    };
 } element;
 
-typedef struct _listnode {
-	element el;
-	struct _listnode* next;
-} *list;
+typedef struct _listnode { 
+element el;
+struct _listnode *next;
+} * list;
+
+const element NIL = { .type=LIST, .l=NULL };
 
 element aasel(atom a);
 element lasel(list l);
