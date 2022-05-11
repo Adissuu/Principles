@@ -20,12 +20,12 @@ void q4(float *five_numbers, float *ten_numbers)
     }
 }
 
-int main()
-{
-    float five_numbers[5] = {6, 7, 5, 4, 3};
-    float ten_numbers[10] = {10, 20, 41, 21, 56, 234, 67, 87, 99, 76};
+// int main()
+// {
+//     float five_numbers[5] = {6, 7, 5, 4, 3};
+//     float ten_numbers[10] = {10, 20, 41, 21, 56, 234, 67, 87, 99, 76};
 
-    q4(five_numbers, ten_numbers);
+//     q4(five_numbers, ten_numbers);
     
-    return 1;
-}
+//     return 1;
+// }
