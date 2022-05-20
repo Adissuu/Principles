@@ -9,6 +9,13 @@
             "name": "Launch Driver",
             "request": "launch",
             "mainClass": "Java.Driver",
+            "projectName": "COMP-348_55a4a2e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Driver",
+            "request": "launch",
+            "mainClass": "Java.Driver",
             "projectName": "Assignment1_8d30d3d"
         }
     ]

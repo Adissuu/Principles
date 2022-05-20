@@ -1,4 +1,4 @@
-package Java;
+package Assignment_1.Java;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,8 @@ public class Driver {
         Scanner input = new Scanner(System.in);
         Scanner reader = null;
         System.out.println("Please enter the name of the file you wish to open.");
-        File filename = new File(input.next());
+        String name = input.next();
+        File filename = new File(name);
         input.close();
         try {
             reader = new Scanner(filename);

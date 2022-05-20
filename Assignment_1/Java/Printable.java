@@ -1,4 +1,4 @@
-package Java;
+package Assignment_1.Java;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package Java;
+package Assignment_1.Java;
 
 public class Rectangle extends PrintableObject implements Shape {
 
