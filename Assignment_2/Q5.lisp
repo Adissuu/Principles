@@ -3,10 +3,19 @@
         ((null list) '())
         (t (append (reverseList (cdr list)) (list (car list))))))
 
-(defun tribonacci-seq (number)
+(defun tribonacci-seqInc (number)
     (setq zero 0)
     (setq zero2 0)
     (setq one 1)
-    (cond 
-        )
-)
+        (let (lst) 
+             (dotimes (count number lst)
+                 (setf lst (cons zero lst))
+                 (setf temp (+ zero zero2 one))
+                 (setf zero zero2)
+                 (setf zero2 one)
+                 (setf one temp))
+             (reverseList lst)))
+
+(print (tribonacci-seqInc 0))
+(defun tribonacci-seqRec (n)
+    )
