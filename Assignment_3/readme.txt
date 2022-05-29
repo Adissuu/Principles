@@ -1,3 +1,7 @@
-mon point dtc
-conar
-allo les amis
+shape
+rhombus 10 20
+circle 2
+ellipse 2 4
+shape
+ellipse -1 4
+rhombus 5 0
