@@ -12,7 +12,7 @@ method(N,R) :-
 :- table lucas/2.
 
 % Generate List
-Lucasseq(M,Result) :-
+Lucasseq(M,R) :-
   numlist(0,M, List),
   Maplist(method, List, Result).
 
