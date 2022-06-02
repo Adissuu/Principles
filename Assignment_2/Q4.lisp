@@ -1,8 +1,4 @@
-(defun reversing (list)
-    (cond 
-        ((null list) '())
-        (t (append (reversing (cdr list)) (list (car list)))))
-)
+
 
 (defun no-dup (list)
     (setf tempList list)
