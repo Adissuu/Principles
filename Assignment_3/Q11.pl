@@ -1,20 +1,14 @@
-method(0,2) :- !.
-method(1,1) :- !.
-method(N,R) :-
+lucas(0, 2) :- !.
+lucas(1, 1) :- !.
+lucas(N, R) :-
     N > 1,
-    N_pre os n-1,
-    N_PrePrevious is n-2,
-    method(N_pre, LHS),
-    method(N_PrePrevious, RHS),
+    N_Pre is N - 1,
+    N_PrePre is N - 2,
+    lucas(N_Pre, LHS),
+    lucas(N_PrePre, RHS),
     R is LHS + RHS.
 
-% Memorization of Lucas numbers
-:- table lucas/2.
-
 % Generate List
-Lucasseq(M,R) :-
-  numlist(0,M, List),
-  Maplist(method, List, Result).
-
-
- 
+seq(M, Result) :-
+    numlist(0, M, List),
+    maplist(lucas, List, Result).
