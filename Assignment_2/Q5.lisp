@@ -3,11 +3,6 @@
         ((null list) '())
         (t (append (reverseList (cdr list)) (list (car list))))))
 
-(defun reverseList (list)
-    (cond 
-        ((null list) '())
-        (t (append (reverseList (cdr list)) (list (car list))))))
-
 (defun tribonacci-seqInc (number)
     (setq zero 0)
     (setq zero2 0)
