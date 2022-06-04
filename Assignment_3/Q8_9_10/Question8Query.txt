@@ -1,0 +1,9 @@
+course_list(X).
+
+size([liam_daigle,gabriel_dalesio,gabriel_dubois,ali_fertanat],N).
+
+unique_course_list(L).
+
+sort([comp352,comp248,encs282],Sorted).
+
+[A,B|C] = [comp248, comp352, encs282].
