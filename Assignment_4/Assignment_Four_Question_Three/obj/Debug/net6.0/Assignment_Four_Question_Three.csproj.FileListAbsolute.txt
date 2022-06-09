@@ -1,0 +1,15 @@
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\bin\Debug\net6.0\Assignment_Four_Question_Three.exe
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\bin\Debug\net6.0\Assignment_Four_Question_Three.deps.json
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\bin\Debug\net6.0\Assignment_Four_Question_Three.runtimeconfig.json
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\bin\Debug\net6.0\Assignment_Four_Question_Three.dll
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\bin\Debug\net6.0\Assignment_Four_Question_Three.pdb
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.csproj.AssemblyReference.cache
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.AssemblyInfoInputs.cache
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.AssemblyInfo.cs
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.csproj.CoreCompileInputs.cache
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.dll
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\refint\Assignment_Four_Question_Three.dll
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.pdb
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\Assignment_Four_Question_Three.genruntimeconfig.cache
+C:\Users\liamd\source\repos\Assignment_Four_Question_Three\Assignment_Four_Question_Three\obj\Debug\net6.0\ref\Assignment_Four_Question_Three.dll
